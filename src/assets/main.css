@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.brown {color: #30291D;}
+.brown-light {color: #f4ead5;}
+.brown-lighter {color: #805E3B;}
+.lighter {color: #58412b;}
+
+@font-face {
+    font-family: "RosarivoRegular";
+    src: local("Rosarivo-Regular"),
+    url(./fonts/Rosarivo-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "RosarivoItalic";
+    src: local("Rosarivo-Italic"),
+    url(./fonts/Rosarivo-Italic.ttf) format("truetype");
+}
+
+body {
+    background-color: #b8ae8f;
+}
+
+.pre-wrap {
+    white-space: pre;
+}
+.italic {
+    font-style: italic;
+}
+.font-bold {
+    font-weight: bold;
+}
+
+.clickable {
+    cursor: pointer;
+    transition: all .1s;
+}
+
+.clickable:hover {
+    filter: brightness(130%);
+    transform: scale(0.98);
+}
+
+.clickable:focus {
+    filter: brightness(130%);
+    transform: scale(0.93);
+}
+
+.scale-enter-active,
+.scale-leave-active {
+    transition: all 0.5s ease;
+}
+
+.scale-enter-from,
+.scale-leave-to {
+    opacity: 0;
+    transform: scale(0.9);
+}
