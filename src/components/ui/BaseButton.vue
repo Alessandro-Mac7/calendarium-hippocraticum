@@ -34,10 +34,18 @@ export default {
 }
 
 /* Medium devices (tablets, 768px and up)  */
+@media (max-width: 639px) {
+  .action-button {
+    width: 13rem;
+    height: 13rem;
+    font-size: 1.6rem;
+  }
+}
+/* Medium devices (tablets, 768px and up)  */
 @media (min-width: 640px) {
   .action-button {
-    width: 10vw;
-    height: 10vw;
+    width: 11rem;
+    height: 11rem;
     font-size: 1.4rem;
   }
 }
@@ -45,8 +53,8 @@ export default {
 /* Medium devices (tablets, 768px and up)  */
 @media (min-width: 768px) {
   .action-button {
-    width: 10vw;
-    height: 10vw;
+    width: 11rem;
+    height: 11rem;
     font-size: 1.4rem;
   }
 }
@@ -54,8 +62,8 @@ export default {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .action-button {
-    width: 12vw;
-    height: 12vw;
+    width: 13rem;
+    height: 13rem;
     font-size: 1.8rem;
   }
 }
